@@ -32,6 +32,58 @@
         "chargeDetail": "\"집/이동전화부터\n데이터까지 완전 무제한\""
     }
     
-]
+],
+  "members": [
+    {
+    "memberNo": 35,
+    "memberName": "김진우",
+    "memberBirth": "1991-10-13 00:00:00",
+    "memberId": "jw",
+    "memberPw": "jw",
+    "memberAddr": "test주소",
+    "memberPhone": "010-4381-3222",
+    "memberJoinDate": "2020-08-16 18:31:43",
+    "memberMail": "wqeqwe@test.com",
+    "paymentAccnt": "계좌 123-123123",
+    "paymentDueDate": 25
+},{
+        "memberNo": 39,
+        "memberName": "김민우",
+        "memberBirth": "2020-08-04 00:00:00",
+        "memberId": "test10",
+        "memberPw": "test",
+        "memberAddr": "test주소",
+        "memberPhone": "010-1234-5678",
+        "memberJoinDate": "2020-08-10 15:23:47",
+        "memberMail": "test@test.com",
+        "paymentAccnt": "계좌 123-123123",
+        "paymentDueDate": 25
+    }
+  ],
+  "membercharge": [
+  {
+    "memberNo": 35,
+    "chargeTbDate": "2020-08-07 09:23:12",
+    "chargeNo": 35,
+    "chargeName": "슈퍼플랜 프리미엄 PLUS",
+    "chargePrice": "130000",
+    "chargeType": "5G",
+    "chargeData": "UNLIMITED",
+    "chargeVoice": "UNLIMITED",
+    "chargeText": "UNLIMITED",
+    "chargeDetail": "\"슈퍼플랜 프리미엄 PLUS\n전 세계 어디에서나\n데이터를 프리하게\""
+},{
+    "memberNo": 39,
+    "chargeTbDate": "2020-08-07 09:23:12",
+    "chargeNo": 35,
+    "chargeName": "슈퍼플랜 프리미엄 PLUS",
+    "chargePrice": "130000",
+    "chargeType": "5G",
+    "chargeData": "UNLIMITED",
+    "chargeVoice": "UNLIMITED",
+    "chargeText": "UNLIMITED",
+    "chargeDetail": "\"슈퍼플랜 프리미엄 PLUS\n전 세계 어디에서나\n데이터를 프리하게\""
+}
+  ]
   
 }
