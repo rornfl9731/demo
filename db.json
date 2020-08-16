@@ -1,9 +1,456 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
+  "charge": [
+    {
+        "chargeNo": 1,
+        "chargeName": "미가입",
+        "chargePrice": "0",
+        "chargeType": "0",
+        "chargeData": "미가입",
+        "chargeVoice": "0",
+        "chargeText": "0",
+        "chargeDetail": "요금제 미가입자입니다."
+    },
+    {
+        "chargeNo": 2,
+        "chargeName": "슈퍼플랜 프리미엄 PLUS",
+        "chargePrice": "130000",
+        "chargeType": "5G",
+        "chargeData": "UNLIMITED",
+        "chargeVoice": "UNLIMITED",
+        "chargeText": "UNLIMITED",
+        "chargeDetail": "\"슈퍼플랜 프리미엄 PLUS\n전 세계 어디에서나\n데이터를 프리하게\""
+    },
+    {
+        "chargeNo": 3,
+        "chargeName": "슈퍼플랜 스페셜 PLUS",
+        "chargePrice": "110000",
+        "chargeType": "5G",
+        "chargeData": "UNLIMITED",
+        "chargeVoice": "UNLIMITED",
+        "chargeText": "UNLIMITED",
+        "chargeDetail": "\"슈퍼플랜 스페셜 PLUS\n단말보험, 스마트기기할인에\n프리미엄 VVIP 혜택까지\""
+    },
+    {
+        "chargeNo": 4,
+        "chargeName": "슈퍼플랜 베이직 PLUS",
+        "chargePrice": "90000",
+        "chargeType": "5G",
+        "chargeData": "UNLIMITED",
+        "chargeVoice": "UNLIMITED",
+        "chargeText": "UNLIMITED",
+        "chargeDetail": "\"슈퍼플랜 베이직 PLUS\n데이터 완전무제한은 기본,\nVIP 혜택도 챙기는\""
+    },
+    {
+        "chargeNo": 5,
+        "chargeName": "슈퍼플랜 스페셜",
+        "chargePrice": "100000",
+        "chargeType": "5G",
+        "chargeData": "UNLIMITED",
+        "chargeVoice": "UNLIMITED",
+        "chargeText": "UNLIMITED",
+        "chargeDetail": "\"슈퍼플랜 스페셜\n단말보험, 스마트기기할인에\n프리미엄 VVIP 혜택까지\""
+    },
+    {
+        "chargeNo": 6,
+        "chargeName": "슈퍼플랜 베이직",
+        "chargePrice": "80000",
+        "chargeType": "5G",
+        "chargeData": "UNLIMITED",
+        "chargeVoice": "UNLIMITED",
+        "chargeText": "UNLIMITED",
+        "chargeDetail": "\"슈퍼플랜 베이직\n데이터 완전무제한은 기본,\nVIP 혜택도 챙기는\""
+    },
+    {
+        "chargeNo": 7,
+        "chargeName": "Y 슈퍼플랜 스페셜",
+        "chargePrice": "100000",
+        "chargeType": "5G",
+        "chargeData": "UNLIMITED",
+        "chargeVoice": "UNLIMITED",
+        "chargeText": "UNLIMITED",
+        "chargeDetail": "\"Y 슈퍼플랜 스페셜\n해외에서도 자유로운 데이터 이용과\n스마트기기 월정액 무료까지\""
+    },
+    {
+        "chargeNo": 8,
+        "chargeName": "Y 슈퍼플랜 베이직",
+        "chargePrice": "80000",
+        "chargeType": "5G",
+        "chargeData": "UNLIMITED",
+        "chargeVoice": "UNLIMITED",
+        "chargeText": "UNLIMITED",
+        "chargeDetail": "\"Y 슈퍼플랜 베이직\n데이터 완전무제한은 기본,\n스마트기기 월정액 50%할인까지\""
+    },
+    {
+        "chargeNo": 9,
+        "chargeName": "5G 슬림",
+        "chargePrice": "55000",
+        "chargeType": "5G",
+        "chargeData": "8000",
+        "chargeVoice": "UNLIMITED",
+        "chargeText": "UNLIMITED",
+        "chargeDetail": "\"5G 속도로 8GB의 데이터를 다 쓰신 후에도\n일반화질의 동영상을 마음껏 즐기는 5G 슬림\n\""
+    },
+    {
+        "chargeNo": 10,
+        "chargeName": "5G Y 슬림",
+        "chargePrice": "55000",
+        "chargeType": "5G",
+        "chargeData": "8000",
+        "chargeVoice": "UNLIMITED",
+        "chargeText": "UNLIMITED",
+        "chargeDetail": "\"5G 슬림에 혜택을 더한 만 29세 이하 고객 전용\n5G Y 슬림 요금제\""
+    },
+    {
+        "chargeNo": 11,
+        "chargeName": "5G Y틴",
+        "chargePrice": "47000",
+        "chargeType": "5G",
+        "chargeData": "10000",
+        "chargeVoice": "UNLIMITED",
+        "chargeText": "UNLIMITED",
+        "chargeDetail": "10GB 데이터를 다 쓰신 후에도 일반 화질의 동영상을 마음껏!"
+    },
+    {
+        "chargeNo": 12,
+        "chargeName": "5G 슬림 PLUS",
+        "chargePrice": "60000",
+        "chargeType": "5G",
+        "chargeData": "8000",
+        "chargeVoice": "UNLIMITED",
+        "chargeText": "UNLIMITED",
+        "chargeDetail": "\"5G 무제한 데이터(속도제어) 와\nSEEZN(시즌)의 다양한 콘텐츠까지\""
+    },
+    {
+        "chargeNo": 13,
+        "chargeName": "데이터ON 프리미엄",
+        "chargePrice": "89000",
+        "chargeType": "LTE",
+        "chargeData": "UNLIMITED",
+        "chargeVoice": "UNLIMITED",
+        "chargeText": "UNLIMITED",
+        "chargeDetail": "\"다양한 프리미엄 혜택 받고\n속도, 용량까지 제한없는\n완전 무제한 이에요!\""
+    },
+    {
+        "chargeNo": 14,
+        "chargeName": "데이터ON 비디오",
+        "chargePrice": "69000",
+        "chargeType": "LTE",
+        "chargeData": "100000",
+        "chargeVoice": "UNLIMITED",
+        "chargeText": "UNLIMITED",
+        "chargeDetail": "\"고화질 동영상을 데이터 걱정없이\n즐기고 멤버십 VIP 혜택도 받으세요!\""
+    },
+    {
+        "chargeNo": 15,
+        "chargeName": "데이터ON 톡",
+        "chargePrice": "49000",
+        "chargeType": "LTE",
+        "chargeData": "3000",
+        "chargeVoice": "UNLIMITED",
+        "chargeText": "UNLIMITED",
+        "chargeDetail": "\"톡, SNS 마음껏 이용하고\n동영상도 용량 제한 없이 즐겨보세요!\n(속도제어)\""
+    },
+    {
+        "chargeNo": 16,
+        "chargeName": "Y 데이터ON 프리미엄",
+        "chargePrice": "89000",
+        "chargeType": "LTE",
+        "chargeData": "UNLIMITED",
+        "chargeVoice": "UNLIMITED",
+        "chargeText": "UNLIMITED",
+        "chargeDetail": "\"다양한 프리미엄 혜택 받고\n속도, 용량까지 제한없는\n완전 무제한 이에요!\""
+    },
+    {
+        "chargeNo": 17,
+        "chargeName": "Y 데이터ON 비디오",
+        "chargePrice": "69000",
+        "chargeType": "LTE",
+        "chargeData": "100000",
+        "chargeVoice": "UNLIMITED",
+        "chargeText": "UNLIMITED",
+        "chargeDetail": "\"고화질 동영상을 데이터 걱정없이\n즐기고 멤버십 VIP 혜택도 받으세요!\""
+    },
+    {
+        "chargeNo": 18,
+        "chargeName": "Y 데이터ON 톡",
+        "chargePrice": "49000",
+        "chargeType": "LTE",
+        "chargeData": "6000",
+        "chargeVoice": "UNLIMITED",
+        "chargeText": "UNLIMITED",
+        "chargeDetail": "\"톡, SNS 마음껏 이용하고\n동영상도 용량 제한 없이 즐겨보세요!\n(속도제어)\""
+    },
+    {
+        "chargeNo": 19,
+        "chargeName": "LTE 베이직",
+        "chargePrice": "33000",
+        "chargeType": "LTE",
+        "chargeData": "1400",
+        "chargeVoice": "UNLIMITED",
+        "chargeText": "UNLIMITED",
+        "chargeDetail": "\"데이터 1.4GB에\n집/이동전화, 문자 기본제공!까지\n가성비 좋은 요금제 LTE 베이직!\""
+    },
+    {
+        "chargeNo": 20,
+        "chargeName": "Y틴ON",
+        "chargePrice": "33000",
+        "chargeType": "LTE",
+        "chargeData": "2500",
+        "chargeVoice": "UNLIMITED",
+        "chargeText": "UNLIMITED",
+        "chargeDetail": "\"만 18세 이하 고객을 위한\n데이터/음성/문자 무제한 요금제\""
+    },
+    {
+        "chargeNo": 21,
+        "chargeName": "Y 군인 77 PLUS",
+        "chargePrice": "77000",
+        "chargeType": "LTE",
+        "chargeData": "UNLIMITED",
+        "chargeVoice": "UNLIMITED",
+        "chargeText": "UNLIMITED",
+        "chargeDetail": "\"군 장병들의 즐거운 여가시간을 위한\n데이터 무제한 & 콘텐츠 혜택\""
+    },
+    {
+        "chargeNo": 22,
+        "chargeName": "Y 군인 55 PLUS",
+        "chargePrice": "55000",
+        "chargeType": "LTE",
+        "chargeData": "100000",
+        "chargeVoice": "UNLIMITED",
+        "chargeText": "UNLIMITED",
+        "chargeDetail": "\"군 장병들의 즐거운 여가시간을 위한\n데이터 무제한 & 콘텐츠 혜택\""
+    },
+    {
+        "chargeNo": 23,
+        "chargeName": "Y 베이직",
+        "chargePrice": "33000",
+        "chargeType": "LTE",
+        "chargeData": "2500",
+        "chargeVoice": "UNLIMITED",
+        "chargeText": "UNLIMITED",
+        "chargeDetail": "\"데이터 2.5GB에\n집/이동전화, 문자 기본제공!까지\n만29세 이하를 위한 가성비 좋은 Y베이직!\""
+    },
+    {
+        "chargeNo": 24,
+        "chargeName": "Y24 65.8(전역)",
+        "chargePrice": "51500",
+        "chargeType": "LTE",
+        "chargeData": "UNLIMITED",
+        "chargeVoice": "UNLIMITED",
+        "chargeText": "UNLIMITED",
+        "chargeDetail": "\"전역의 기쁨을 완전 무제한으로 누려보세요.\n데이터 완전 무제한, 월 최대 14,390원 할인!!\""
+    },
+    {
+        "chargeNo": 25,
+        "chargeName": "Y24 54.8(전역)",
+        "chargePrice": "48750",
+        "chargeType": "LTE",
+        "chargeData": "UNLIMITED",
+        "chargeVoice": "UNLIMITED",
+        "chargeText": "UNLIMITED",
+        "chargeDetail": "\"전역의 기쁨을 완전 무제한으로 누려보세요.\n데이터 완전 무제한, 월 최대 14,390원 할인!!\""
+    },
+    {
+        "chargeNo": 26,
+        "chargeName": "Y24 49.3(전역)",
+        "chargePrice": "47375",
+        "chargeType": "LTE",
+        "chargeData": "UNLIMITED",
+        "chargeVoice": "UNLIMITED",
+        "chargeText": "UNLIMITED",
+        "chargeDetail": "\"전역의 기쁨을 완전 무제한으로 누려보세요.\n데이터 완전 무제한, 월 최대 14,390원 할인!!\""
+    },
+    {
+        "chargeNo": 27,
+        "chargeName": "음성 18.7",
+        "chargePrice": "18700",
+        "chargeType": "LTE",
+        "chargeData": "0",
+        "chargeVoice": "100",
+        "chargeText": "100",
+        "chargeDetail": "LTE 피쳐폰 고객을 위한 음성/문자 혜택"
+    },
+    {
+        "chargeNo": 28,
+        "chargeName": "음성 12.1",
+        "chargePrice": "12100",
+        "chargeType": "LTE",
+        "chargeData": "0",
+        "chargeVoice": "0",
+        "chargeText": "50",
+        "chargeDetail": "LTE 피쳐폰 고객을 위한 음성/문자 혜택"
+    },
+    {
+        "chargeNo": 29,
+        "chargeName": "순 광대역 안심무한51",
+        "chargePrice": "56100",
+        "chargeType": "LTE",
+        "chargeData": "15000",
+        "chargeVoice": "100",
+        "chargeText": "100",
+        "chargeDetail": "저렴하게 즐기는 데이터 무제한 (속도제어)"
+    },
+    {
+        "chargeNo": 30,
+        "chargeName": "안심데이터 38.5",
+        "chargePrice": "38500",
+        "chargeType": "LTE",
+        "chargeData": "450",
+        "chargeVoice": "UNLIMITED",
+        "chargeText": "UNLIMITED",
+        "chargeDetail": "\"QOS로 데이터를\n안심하고 이용할 수 있는 요금제\""
+    },
+    {
+        "chargeNo": 31,
+        "chargeName": "골든 275",
+        "chargePrice": "30250",
+        "chargeType": "LTE",
+        "chargeData": "500",
+        "chargeVoice": "100",
+        "chargeText": "0",
+        "chargeDetail": "\"만65세 이상 고객 대상 필요한 만큼\n저렴하게 제공하는 LTE 요금제\""
+    },
+    {
+        "chargeNo": 32,
+        "chargeName": "골든 150",
+        "chargePrice": "16500",
+        "chargeType": "LTE",
+        "chargeData": "300",
+        "chargeVoice": "100",
+        "chargeText": "0",
+        "chargeDetail": "\"만65세 이상 고객 대상 필요한 만큼\n저렴하게 제공하는 LTE 요금제\""
+    },
+    {
+        "chargeNo": 33,
+        "chargeName": "\"순 완전무한99(3G)\"",
+        "chargePrice": "108900",
+        "chargeType": "3G",
+        "chargeData": "25000",
+        "chargeVoice": "UNLIMITED",
+        "chargeText": "UNLIMITED",
+        "chargeDetail": "\"집/이동전화부터\n데이터까지 완전 무제한\""
+    },
+    {
+        "chargeNo": 34,
+        "chargeName": "순 완전무한77(3G)",
+        "chargePrice": "84700",
+        "chargeType": "3G",
+        "chargeData": "17000",
+        "chargeVoice": "UNLIMITED",
+        "chargeText": "UNLIMITED",
+        "chargeDetail": "\"집/이동전화부터\n데이터까지 완전 무제한\""
+    },
+    {
+        "chargeNo": 35,
+        "chargeName": "순 완전무한61(3G)",
+        "chargePrice": "67100",
+        "chargeType": "3G",
+        "chargeData": "10000",
+        "chargeVoice": "UNLIMITED",
+        "chargeText": "UNLIMITED",
+        "chargeDetail": "\"집/이동전화부터\n데이터까지 완전 무제한\""
+    },
+    {
+        "chargeNo": 36,
+        "chargeName": "순 완전무한51(3G)",
+        "chargePrice": "56100",
+        "chargeType": "3G",
+        "chargeData": "5000",
+        "chargeVoice": "UNLIMITED",
+        "chargeText": "UNLIMITED",
+        "chargeDetail": "\"집/이동전화부터\n데이터까지 완전 무제한\""
+    },
+    {
+        "chargeNo": 37,
+        "chargeName": "\"순 모두다올레41(3G)\"",
+        "chargePrice": "45100",
+        "chargeType": "3G",
+        "chargeData": "2100",
+        "chargeVoice": "250",
+        "chargeText": "UNLIMITED",
+        "chargeDetail": "\"요금 걱정없이 가족과 연인끼리\n마음껏 통화하고 싶으세요?\n모두다 올레는 KT 모바일 가입자끼리 음성통화\n뿐만 아니라 영상통화도 무제한!!\n\""
+    },
+    {
+        "chargeNo": 38,
+        "chargeName": "\"순 모두다올레34(3G)\"",
+        "chargePrice": "37400",
+        "chargeType": "3G",
+        "chargeData": "1500",
+        "chargeVoice": "185",
+        "chargeText": "UNLIMITED",
+        "chargeDetail": "\"요금 걱정없이 가족과 연인끼리\n마음껏 통화하고 싶으세요?\n모두다 올레는 KT 모바일 가입자끼리 음성통화\n뿐만 아니라 영상통화도 무제한!!\n\""
+    },
+    {
+        "chargeNo": 39,
+        "chargeName": "\"순 모두다올레28(3G)\"",
+        "chargePrice": "30800",
+        "chargeType": "3G",
+        "chargeData": "750",
+        "chargeVoice": "130",
+        "chargeText": "UNLIMITED",
+        "chargeDetail": "\"요금 걱정없이 가족과 연인끼리\n마음껏 통화하고 싶으세요?\n모두다 올레는 KT 모바일 가입자끼리 음성통화\n뿐만 아니라 영상통화도 무제한!!\n\""
+    },
+    {
+        "chargeNo": 40,
+        "chargeName": "순 손말나눔23(3G)",
+        "chargePrice": "25300",
+        "chargeType": "3G",
+        "chargeData": "300",
+        "chargeVoice": "120",
+        "chargeText": "1000",
+        "chargeDetail": "\"청각 장애인과 시각장애인을\n위한 맞춤 요금제!\""
+    },
+    {
+        "chargeNo": 41,
+        "chargeName": "순 소리나눔23(3G)",
+        "chargePrice": "25300",
+        "chargeType": "3G",
+        "chargeData": "300",
+        "chargeVoice": "250",
+        "chargeText": "100",
+        "chargeDetail": "\"청각 장애인과 시각장애인을\n위한 맞춤 요금제!\""
+    },
+    {
+        "chargeNo": 42,
+        "chargeName": "순 I-슬림(3G)",
+        "chargePrice": "23100",
+        "chargeType": "3G",
+        "chargeData": "100",
+        "chargeVoice": "150",
+        "chargeText": "200",
+        "chargeDetail": ""
+    },
+    {
+        "chargeNo": 43,
+        "chargeName": "순 I-밸류(3G)",
+        "chargePrice": "39600",
+        "chargeType": "3G",
+        "chargeData": "UNLIMITED",
+        "chargeVoice": "300",
+        "chargeText": "300",
+        "chargeDetail": ""
+    },
+    {
+        "chargeNo": 44,
+        "chargeName": "미가입",
+        "chargePrice": "0",
+        "chargeType": "0",
+        "chargeData": "미가입",
+        "chargeVoice": "0",
+        "chargeText": "0",
+        "chargeDetail": "요금제 미가입자입니다."
+    },
+    {
+        "chargeNo": 45,
+        "chargeName": "미가입",
+        "chargePrice": "0",
+        "chargeType": "0",
+        "chargeData": "미가입",
+        "chargeVoice": "0",
+        "chargeText": "0",
+        "chargeDetail": "요금제 미가입자입니다."
+    }
+],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
