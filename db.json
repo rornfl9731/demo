@@ -31,112 +31,35 @@
         "chargeText": "UNLIMITED",
         "chargeDetail": "\"집/이동전화부터\n데이터까지 완전 무제한\""
     },
-    {
-        "chargeNo": 36,
-        "chargeName": "순 완전무한51(3G)",
-        "chargePrice": "56100",
-        "chargeType": "3G",
-        "chargeData": "5000",
-        "chargeVoice": "UNLIMITED",
-        "chargeText": "UNLIMITED",
-        "chargeDetail": "\"집/이동전화부터\n데이터까지 완전 무제한\""
-    },
-    {
-        "chargeNo": 37,
-        "chargeName": "\"순 모두다올레41(3G)\"",
-        "chargePrice": "45100",
-        "chargeType": "3G",
-        "chargeData": "2100",
-        "chargeVoice": "250",
-        "chargeText": "UNLIMITED",
-        "chargeDetail": "\"요금 걱정없이 가족과 연인끼리\n마음껏 통화하고 싶으세요?\n모두다 올레는 KT 모바일 가입자끼리 음성통화\n뿐만 아니라 영상통화도 무제한!!\n\""
-    },
-    {
-        "chargeNo": 38,
-        "chargeName": "\"순 모두다올레34(3G)\"",
-        "chargePrice": "37400",
-        "chargeType": "3G",
-        "chargeData": "1500",
-        "chargeVoice": "185",
-        "chargeText": "UNLIMITED",
-        "chargeDetail": "\"요금 걱정없이 가족과 연인끼리\n마음껏 통화하고 싶으세요?\n모두다 올레는 KT 모바일 가입자끼리 음성통화\n뿐만 아니라 영상통화도 무제한!!\n\""
-    },
-    {
-        "chargeNo": 39,
-        "chargeName": "\"순 모두다올레28(3G)\"",
-        "chargePrice": "30800",
-        "chargeType": "3G",
-        "chargeData": "750",
-        "chargeVoice": "130",
-        "chargeText": "UNLIMITED",
-        "chargeDetail": "\"요금 걱정없이 가족과 연인끼리\n마음껏 통화하고 싶으세요?\n모두다 올레는 KT 모바일 가입자끼리 음성통화\n뿐만 아니라 영상통화도 무제한!!\n\""
-    },
-    {
-        "chargeNo": 40,
-        "chargeName": "순 손말나눔23(3G)",
-        "chargePrice": "25300",
-        "chargeType": "3G",
-        "chargeData": "300",
-        "chargeVoice": "120",
-        "chargeText": "1000",
-        "chargeDetail": "\"청각 장애인과 시각장애인을\n위한 맞춤 요금제!\""
-    },
-    {
-        "chargeNo": 41,
-        "chargeName": "순 소리나눔23(3G)",
-        "chargePrice": "25300",
-        "chargeType": "3G",
-        "chargeData": "300",
-        "chargeVoice": "250",
-        "chargeText": "100",
-        "chargeDetail": "\"청각 장애인과 시각장애인을\n위한 맞춤 요금제!\""
-    },
-    {
-        "chargeNo": 42,
-        "chargeName": "순 I-슬림(3G)",
-        "chargePrice": "23100",
-        "chargeType": "3G",
-        "chargeData": "100",
-        "chargeVoice": "150",
-        "chargeText": "200",
-        "chargeDetail": ""
-    },
-    {
-        "chargeNo": 43,
-        "chargeName": "순 I-밸류(3G)",
-        "chargePrice": "39600",
-        "chargeType": "3G",
-        "chargeData": "UNLIMITED",
-        "chargeVoice": "300",
-        "chargeText": "300",
-        "chargeDetail": ""
-    },
-    {
-        "chargeNo": 44,
-        "chargeName": "미가입",
-        "chargePrice": "0",
-        "chargeType": "0",
-        "chargeData": "미가입",
-        "chargeVoice": "0",
-        "chargeText": "0",
-        "chargeDetail": "요금제 미가입자입니다."
-    },
-    {
-        "chargeNo": 45,
-        "chargeName": "미가입",
-        "chargePrice": "0",
-        "chargeType": "0",
-        "chargeData": "미가입",
-        "chargeVoice": "0",
-        "chargeText": "0",
-        "chargeDetail": "요금제 미가입자입니다."
-    }
+    
 ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "members": [
+    {
+    "memberNo": 35,
+    "memberName": "김진우",
+    "memberBirth": "1991-10-13 00:00:00",
+    "memberId": "jw",
+    "memberPw": "jw",
+    "memberAddr": "test주소",
+    "memberPhone": "010-4381-3222",
+    "memberJoinDate": "2020-08-16 18:31:43",
+    "memberMail": "wqeqwe@test.com",
+    "paymentAccnt": "계좌 123-123123",
+    "paymentDueDate": 25
+}
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "membercharge": [
+  {
+    "memberNo": 35,
+    "chargeTbDate": "2020-08-07 09:23:12",
+    "chargeNo": 2,
+    "chargeName": "슈퍼플랜 프리미엄 PLUS",
+    "chargePrice": "130000",
+    "chargeType": "5G",
+    "chargeData": "UNLIMITED",
+    "chargeVoice": "UNLIMITED",
+    "chargeText": "UNLIMITED",
+    "chargeDetail": "\"슈퍼플랜 프리미엄 PLUS\n전 세계 어디에서나\n데이터를 프리하게\""
+},
+  ]
 }
