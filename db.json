@@ -84,6 +84,15 @@
     "chargeText": "UNLIMITED",
     "chargeDetail": "\"슈퍼플랜 프리미엄 PLUS\n전 세계 어디에서나\n데이터를 프리하게\""
 }
+  ],
+  "membercharge": [
+  {
+    "memberNo": 35,
+    "chargeall": "40,000"
+},{
+    "memberNo": 39,
+    "chargeall": "59,200"
+}
   ]
   
 }
